@@ -12,4 +12,4 @@ HEADERS += \
 RESOURCES += \
     $$PWD/res/qml/qml.qrc
 
-include( $$PWD/kmeans.pri )
+include( $$PWD/qml-2d-template.pri )

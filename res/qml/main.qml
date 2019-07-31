@@ -10,7 +10,7 @@ Window {
     visible: true
     width: 640
     height: 480
-    title: "2d prototyping"
+    title: "qml 2d-template"
     color: "#333"
 
     Canvas2d {

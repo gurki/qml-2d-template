@@ -17,10 +17,11 @@ void Canvas2d::paint( QPainter* painter )
 
 
 ////////////////////////////////////////////////////////////////////////////////
-void Canvas2d::mousePressEvent( QMouseEvent* event ) {}
+void Canvas2d::mousePressEvent( QMouseEvent* event )
+{}
 
 
 ////////////////////////////////////////////////////////////////////////////////
 void Canvas2d::declareQml() {
-    qmlRegisterType<Canvas2d>( "teqi", 1, 0, "Canvas2d" );
+    qmlRegisterType<Canvas2d>( "templates", 1, 0, "Canvas2d" );
 }

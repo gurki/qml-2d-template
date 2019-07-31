@@ -1,5 +1,6 @@
 #pragma once
 
+#include <library/model.h>
 #include <QQuickPaintedItem>
 
 
@@ -15,4 +16,8 @@ class Canvas2d : public QQuickPaintedItem
         void mousePressEvent( QMouseEvent* event );
 
         static void declareQml();
+
+    private:
+
+        Model model_ = {};
 };

@@ -1,10 +1,14 @@
 INCLUDEPATH += \
     $$PWD/include
 
-#SOURCES += \
-#HEADERS += \
+SOURCES += \
+    $$PWD/src/model.cpp
 
-# glm
+HEADERS += \
+    $$PWD/include/library/model.h
+
+
+# dependencies
 
 INCLUDEPATH += $$PWD/dependencies/glm/
 DEPENDPATH += $$PWD/dependencies/glm/

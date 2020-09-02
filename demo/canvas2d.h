@@ -1,6 +1,6 @@
 #pragma once
 
-#include <library/model.h>
+#include <model/model.h>
 #include <QQuickPaintedItem>
 
 

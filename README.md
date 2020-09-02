@@ -1,4 +1,4 @@
 # QML 2D-Template
 
-Starting point for graphical 2d prototyping with cpp/qt.
+A minimal 2D-graphics starting point with QML.
 It provides a custom QQuickPaintedItem and empty model class.

@@ -12,6 +12,7 @@ int main( int argc, char* argv[] )
     Canvas2d::declareQml();
 
     QQmlApplicationEngine engine;
+    engine.addImportPath( QML_CANVAS_ROOT "res/qml/" );
     engine.load( QUrl( QStringLiteral( "qrc:/main.qml" ) ));
 
     if ( engine.rootObjects().isEmpty() ) {
